@@ -1,0 +1,14 @@
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\bin\Debug\netcoreapp2.1\QuanLyNhaHangServer.deps.json
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\bin\Debug\netcoreapp2.1\QuanLyNhaHangServer.runtimeconfig.json
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\bin\Debug\netcoreapp2.1\QuanLyNhaHangServer.runtimeconfig.dev.json
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\bin\Debug\netcoreapp2.1\QuanLyNhaHangServer.dll
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\bin\Debug\netcoreapp2.1\QuanLyNhaHangServer.pdb
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\obj\Debug\netcoreapp2.1\QuanLyNhaHangServer.csprojAssemblyReference.cache
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\obj\Debug\netcoreapp2.1\QuanLyNhaHangServer.csproj.CoreCompileInputs.cache
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\obj\Debug\netcoreapp2.1\QuanLyNhaHangServer.RazorAssemblyInfo.cache
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\obj\Debug\netcoreapp2.1\QuanLyNhaHangServer.RazorAssemblyInfo.cs
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\obj\Debug\netcoreapp2.1\QuanLyNhaHangServer.AssemblyInfoInputs.cache
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\obj\Debug\netcoreapp2.1\QuanLyNhaHangServer.AssemblyInfo.cs
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\obj\Debug\netcoreapp2.1\QuanLyNhaHangServer.RazorTargetAssemblyInfo.cache
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\obj\Debug\netcoreapp2.1\QuanLyNhaHangServer.dll
+F:\My Document\UIT\OOAD\QuanLyNhaHang\QuanLyNhaHangServer\QuanLyNhaHangServer\obj\Debug\netcoreapp2.1\QuanLyNhaHangServer.pdb
