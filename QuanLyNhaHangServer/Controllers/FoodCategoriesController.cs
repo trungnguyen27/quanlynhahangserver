@@ -95,8 +95,8 @@ namespace QuanLyNhaHangServer.Controllers
 
             _context.FoodCategories.Add(foodCategory);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetFoodCategory", new { id = foodCategory.Id }, foodCategory);
+            var jObject = Utils.getJObjectResponseFromObject(true, foodCategory);
+            return CreatedAtAction("GetFoodCategory", new { id = foodCategory.Id }, jObject);
         }
 
         // DELETE: api/FoodCategories/5

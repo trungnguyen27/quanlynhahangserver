@@ -95,8 +95,8 @@ namespace QuanLyNhaHangServer.Controllers
 
             _context.Ingredients.Add(ingredient);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetIngredient", new { id = ingredient.Id }, ingredient);
+            var jObject = Utils.getJObjectResponseFromObject(true, ingredient);
+            return CreatedAtAction("GetIngredient", new { id = ingredient.Id }, jObject);
         }
 
         // DELETE: api/Ingredients/5

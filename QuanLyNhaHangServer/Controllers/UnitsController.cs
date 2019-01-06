@@ -46,6 +46,7 @@ namespace QuanLyNhaHangServer.Controllers
                 return NotFound();
             }
 
+            var jObject = Utils.getJObjectResponseFromObject(true, unit);
             return Ok(unit);
         }
 
@@ -95,8 +96,8 @@ namespace QuanLyNhaHangServer.Controllers
 
             _context.Units.Add(unit);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetUnit", new { id = unit.Id }, unit);
+            var jObject = Utils.getJObjectResponseFromObject(true, unit);
+            return CreatedAtAction("GetUnit", new { id = unit.Id }, jObject);
         }
 
         // DELETE: api/Units/5

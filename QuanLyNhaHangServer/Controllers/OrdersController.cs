@@ -95,8 +95,8 @@ namespace QuanLyNhaHangServer.Controllers
 
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetOrder", new { id = order.Id }, order);
+            var jObject = Utils.getJObjectResponseFromObject(true, order);
+            return CreatedAtAction("GetOrder", new { id = order.Id }, jObject);
         }
 
         // POST: api/Orders

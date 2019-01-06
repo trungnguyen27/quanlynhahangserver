@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using QuanLyNhaHangServer;
+using QuanLyNhaHangServer.Helpers;
 using QuanLyNhaHangServer.Models;
 
 namespace QuanLyNhaHangServer.Controllers
@@ -23,9 +24,10 @@ namespace QuanLyNhaHangServer.Controllers
 
         // GET: api/Images
         [HttpGet]
-        public IEnumerable<Image> GetImages()
+        public IActionResult GetImages()
         {
-            return _context.Images;
+            var jObject = Utils.getJObjectResponseFromArray(true, _context.Images.ToList());
+            return Ok(jObject);
         }
 
         // GET: api/Images/5
@@ -43,8 +45,8 @@ namespace QuanLyNhaHangServer.Controllers
             {
                 return NotFound();
             }
-
-            return Ok(image);
+            var jObject = Utils.getJObjectResponseFromObject(true, image);
+            return Ok(jObject);
         }
 
         // PUT: api/Images/5
@@ -93,8 +95,8 @@ namespace QuanLyNhaHangServer.Controllers
 
             _context.Images.Add(image);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetImage", new { id = image.Id }, image);
+            var jObject = Utils.getJObjectResponseFromObject(true, image);
+            return CreatedAtAction("GetImage", new { id = image.Id }, jObject);
         }
 
         // DELETE: api/Images/5
